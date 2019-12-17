@@ -18,3 +18,14 @@ def map_to_no_change(source_array)
   end
   return array
 end
+
+def map_to_no_change(source_array)
+  i = 0
+  array = []
+  while i<source_array.length do
+    array[i] = source_array[i]
+    i+=1
+  end
+  return array
+end
+
