@@ -8,11 +8,11 @@ def map_to_negativize(source_array)
   end
 end
 
-def map_to_negativize(source_array)
+def map_to_no_change(source_array)
   i = 0
   array = []
   while i<source_array.length do
-    array[i] = source_array[i]*-1
+    array[i] = source_array[i]
     i+=1
   end
 end
